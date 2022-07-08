@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+html{
+    background: #000000;
+    overflow: hidden;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.frame{
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+.right{
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.38);
+    height: 500px;
+    backdrop-filter: blur(10px);
+    top: 10px;
+    border-radius:5px 0 0 5px;
+
+    position: relative;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+}
+.right img{
+    top: 160px;
+    left: 50px;
+    border-radius: 10px;
+    position: absolute;
+    height: 60%;
+}
+.head{
+    position: absolute;
+    top: 50px;
+    background: rgba(242, 237, 233, 0.4);
+    width: 700px;
+    height: 50px;
+    z-index: 999;
+    box-shadow: 5px 15px 25px rgba(0, 0, 0, 0.38);
+    backdrop-filter: blur(30px);
+
+}
+.head p{
+    letter-spacing: 2.5px;
+    font-family: 'Libre Baskerville', serif;
+    left: 10px;
+    position: absolute;
+}
+.left{
+    display: inline-block;
+    background: rgba(191, 165, 142, 0.42);
+    height: 500px;
+    border-radius:0 5px 5px 0;
+    top: 10px;
+    position: relative;
+    width: 350px;
+}
+
+.cover img{
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    border-radius: 5px;
+    height: 50%;
+}
+
+.cover p{
+    position: absolute;
+    top: 340px;
+    font-size: 15px;
+    left: 80px;
+}
+#start{
+    top: 380px;
+    background: none;
+    font-size: 9px;
+    left: 70px;
+}
+#end{
+    top: 380px;
+    background: none;
+    font-size: 9px;
+    left: 285px;
+}
+.icons{
+    position: absolute;
+    z-index: 999;
+}
+.icons i {
+    position: absolute;
+    top: 400px;
+    display: flex;
+
+}
+.code img{
+    position: absolute;
+    top: 440px;
+    left: 90px;
+    border-radius: 5px;
+    height: 10%;
+}
+.main{
+    position: absolute;
+    height: 580px;
+    display: flex;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.Us{
+    background: rgba(237, 237, 237, 0.53);
+    border-radius: 20px 0 0 20px;
+    display: inline-block;
+    height: 600px;
+    width: 450px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.45);
+
+}
+.Spotify{
+    border-radius: 0 20px 20px 0;
+    background: rgba(155, 129, 110, 0.37);
+    display: inline-block;
+    height: 600px;
+    width: 450px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+
+}
+.fa-repeat{
+    left: 270px;
+}
+.fa-forward-step{
+    left: 230px;
+}
+.fa-play-circle{
+    left: 180px;
+}
+.fa-backward-step{
+    left: 140px;
+}
+.fa-shuffle{
+    left: 80px;
+}
+.line{
+    position: absolute;
+    background: none;
+    top: 370px;
+    left: 70px;
+}
+.line img{
+
+    width: 230px;
+    height: 35px;
+}
+.ball img{
+    height: 10px;
+    width: 10px;
+}
+.ball{
+    position: absolute;
+    background: none;
+    top: 378px;
+    left: 150px;
+}
+.shuffle,
+.repeat{
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+}
+.back,
+.forward{
+    position: absolute;
+    font-size: 20px;
+}
+.play{
+    font-size: 25px;
+    cursor: pointer;
+}
+.liked{
+    color: #e00404;
+}
+.heart{
+    position: absolute;
+    bottom: 40px;
+}
+.fa-heart{
+    left: 270px;
+    top: 100px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
